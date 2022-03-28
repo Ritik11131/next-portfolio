@@ -15,10 +15,7 @@ import node_icon from '/public/node-icon.png'
 import angular_icon from '/public/angular-icon.png'
 
 const Skills = () => {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
+  
   return (
     <div className={styles.skill}>
     <section className="text-gray-600 body-font">

@@ -1,15 +1,12 @@
 import React from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from 'react';
+
 import Head from 'next/head'
 
 const myWork = () => {
 
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
+ 
 
   return (
     <div >
@@ -98,4 +95,4 @@ const myWork = () => {
   )
 }
 
-export default myWork
+export default myWork 
