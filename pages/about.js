@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '/styles/Home.module.css';
 import Head from 'next/head'
 
-const about = () => {
+const About = () => {
   return (
     <div>
     <Head>
@@ -40,4 +40,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About
