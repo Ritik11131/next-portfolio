@@ -3,12 +3,10 @@ import { FaFacebookSquare } from 'react-icons/fa';
 import { FaLinkedin, FaWhatsappSquare, FaGithub } from 'react-icons/fa';
 import Head from 'next/head'
 import { useState } from 'react';
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from 'react';
 
 
-const contact = () => {
+
+const Contact = () => {
   const [open, setOpen] = useState('hidden')
   function closeBanner() {
     setOpen('hidden');
@@ -18,10 +16,7 @@ const contact = () => {
     setOpen('');
   }
 
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
+ 
 
   return (
 
@@ -111,4 +106,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact

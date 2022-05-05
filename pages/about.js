@@ -1,17 +1,8 @@
 import React from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from 'react';
 import styles from '/styles/Home.module.css';
 import Head from 'next/head'
 
 const about = () => {
-
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
-  
   return (
     <div>
     <Head>

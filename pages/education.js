@@ -1,17 +1,8 @@
 import React from 'react'
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from 'react';
+
 import Head from 'next/head'
 
-const education = () => {
-
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
-
-
+const Education = () => {
   return (
     <div>
     <Head>
@@ -49,4 +40,4 @@ const education = () => {
   )
 }
 
-export default education
+export default Education

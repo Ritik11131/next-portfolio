@@ -12,6 +12,7 @@ import styles from '/styles/Home.module.css';
 
 
 export default function Home() {
+  
   useEffect(() => {
     AOS.init();
     AOS.refresh();
