@@ -5,9 +5,7 @@ import js_icon from '/public/js-icon.gif'
 import styles from './../styles/Home.module.css'
 import c_icon from '/public/c++-icon.png'
 import bootstrap_icon from '/public/bootstrap-icon.png'
-import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from 'react';
 import python_icon from '/public/python-icon.gif'
 import html_icon from '/public/html-icon.png'
 import css_icon from '/public/css-icon.png'

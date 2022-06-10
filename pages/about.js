@@ -29,9 +29,9 @@ const About = () => {
             </div>
           </div>
           <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-            <p  data-aos="flip-right" data-aos-duration="1500"  className="leading-relaxed text-lg mb-4">I am a Front-end web Developer and a intermediate C/C++ programmer who loves to code and solve problems. Loves to play Games. Loves to explore and learn new technologies with time. I am a guy with big dreams and hard work, will definetely fulfill my dreams. 
+            <p  data-aos="flip-right" data-aos-duration="1500"  className="leading-relaxed text-lg mb-4">
+              I am a Front-end web Developer and a intermediate C/C++ programmer who loves to code and solve problems. Loves to play Games. Loves to explore and learn new technologies with time. I am a guy with big dreams and hard work, will definetely fulfill my dreams. 
             </p>
-            
           </div>
         </div>
       </div>

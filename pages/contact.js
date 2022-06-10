@@ -16,8 +16,6 @@ const Contact = () => {
     setOpen('');
   }
 
- 
-
   return (
 
     <div>
